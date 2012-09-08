@@ -1,68 +1,68 @@
 .resources {
 	display:none;
 }
-svg {
-	position: absolut;
+.tile {
+	position: absolute;
 }
 
-svg.row0 {
+.row0 {
 	top: 0px;
 }
-svg.row1 {
+.row1 {
 	top: 23px;
 }
-svg.row2 {
+.row2 {
 	top: 46px;
 }
-svg.row3 {
+.row3 {
 	top: 69px;
 }
-svg.row4 {
+.row4 {
 	top: 92px;
 }
-svg.row5 {
+.row5 {
 	top: 115px;
 }
-svg.row6 {
+.row6 {
 	top: 138px;
 }
-svg.row7 {
+.row7 {
 	top: 161px;
 }
-svg.row8 {
+.row8 {
 	top: 184px;
 }
-svg.row9 {
+.row9 {
 	top: 207px;
 }
 
-svg.col0 {
+.col0 {
 	left: 0px;
 }
-svg.col1 {
+.col1 {
 	left: 23px;
 }
-svg.col2 {
+.col2 {
 	left: 46px;
 }
-svg.col3 {
+.col3 {
 	left: 69px;
 }
-svg.col4 {
+.col4 {
 	left: 92px;
 }
-svg.col5 {
+.col5 {
 	left: 115px;
 }
-svg.col6 {
+.col6 {
 	left: 138px;
 }
-svg.col7 {
+.col7 {
 	left: 161px;
 }
-svg.col8 {
+.col8 {
 	left: 184px;
 }
-svg.col9 {
+.col9 {
 	left: 207px;
 }
