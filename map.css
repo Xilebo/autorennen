@@ -4,6 +4,9 @@
 .tile {
 	position: absolute;
 }
+.board {
+	position: absolute;
+}
 
 .row0 {
 	top: 0px;
