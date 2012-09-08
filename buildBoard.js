@@ -1,4 +1,4 @@
-//~ function buildBoard($) {
+buildBoard = function($) {
 	$(document).ready( function() {
 		var tileTemplate = $(".resources .tile");
 		var board = $(".board");
@@ -13,4 +13,4 @@
 			}
 		}
 	});
-//~ }(jQuery);
+}(jQuery);
