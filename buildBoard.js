@@ -1,9 +1,3 @@
-conf = {
-	board : {
-		rows : 10,
-		columns : 10
-	}
-}
 buildBoard = function($) {
 	$(document).ready( function() {
 		var tileTemplate = $(".resources .tile");
