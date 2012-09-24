@@ -1,4 +1,4 @@
-buildBoard = function($) {
+(function($) {
 	$(document).ready( function() {
 		var board = $(".board");
 		
@@ -6,4 +6,4 @@ buildBoard = function($) {
 		board.width(config.board.columns * config.board.field.width);
 		
 	});
-}(jQuery);
+}) (jQuery);
