@@ -2,8 +2,8 @@ config = {
 	board : {
 		rows : 10,
 		columns : 10,
-		background-image : {
-			url = "gridcross.svg"
+		background_image : {
+			url : "gridcross.svg"
 		}
 	}
 }

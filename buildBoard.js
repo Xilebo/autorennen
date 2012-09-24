@@ -1,9 +1,9 @@
-function($) {
+buildBoard = function($) {
 	$(document).ready( function() {
 		var tileTemplate = $(".resources .tile");
 		var board = $(".board");
 		
-		board.css("background-image", "url(" + config.board.background-image.url + ")");
+		board.css("background-image", "url(" + config.board.background_image.url + ")");
 		
 		var row = 0;
 		var col = 0;
