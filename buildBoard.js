@@ -3,10 +3,6 @@ buildBoard = function($) {
 		var fieldTemplate = $(".resources .field");
 		var board = $(".board");
 		
-		board.css("background-image", "url("
-			+ config.board.background_image
-			+ ")");
-		
 		var row = 0;
 		var col = 0;
 		for ( var row = 0; row < config.board.rows; row++) {
