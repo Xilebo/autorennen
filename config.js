@@ -2,8 +2,9 @@ config = {
 	board : {
 		rows : 10,
 		columns : 10,
-		background_image : {
-			url : "gridcross.svg"
+		field : {
+			width: 23,
+			height: 23
 		}
 	}
 }
