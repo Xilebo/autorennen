@@ -4,8 +4,8 @@ function($) {
 		var board = $(".board");
 		var row = 0;
 		var col = 0;
-		for ( var row = 0; row < conf.board.rows; row++) {
-			for ( var col = 0; col < conf.board.columns; col++) {
+		for ( var row = 0; row < config.board.rows; row++) {
+			for ( var col = 0; col < config.board.columns; col++) {
 				tileTemplate.clone()
 					.addClass('row' + row)
 					.addClass('col' + col)
