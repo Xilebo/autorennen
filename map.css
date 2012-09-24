@@ -1,7 +1,7 @@
 .resources {
 	display:none;
 }
-.tile {
+.field {
 	position: absolute;
 }
 .board {
