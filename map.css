@@ -6,7 +6,6 @@
 }
 .board {
 	position: absolute;
-	background-image: url(gridcross.svg);
 }
 
 .row0 {
