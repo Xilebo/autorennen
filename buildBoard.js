@@ -1,4 +1,4 @@
-buildBoard = function($) {
+function($) {
 	$(document).ready( function() {
 		var tileTemplate = $(".resources .tile");
 		var board = $(".board");
