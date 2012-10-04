@@ -4,12 +4,12 @@
 		var boardOffset = board.offset();
 		board.click(function (event) {
 			var clickedField = {
-				X : NaN,
-				Y : NaN
+				x : NaN,
+				y : NaN
 			};
-			clickedField.X = Math.floor((event.pageX - boardOffset.left)
+			clickedField.x = Math.floor((event.pageX - boardOffset.left)
 				/ config.board.field.width);
-			clickedField.Y = Math.floor((event.pageY - boardOffset.top)
+			clickedField.y = Math.floor((event.pageY - boardOffset.top)
 				/ config.board.field.height);
 		});
 	});
